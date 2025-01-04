@@ -95,9 +95,15 @@ Price: 199.99
 ```
 ## 🚧 Limitations
 No Persistence: Data is lost when the program exits as no file handling is implemented.
+---
 Maximum Capacity: Limited to 100 items due to array size constraints.
+---
 ## 🚀 Future Enhancements
 File Handling: Save and load inventory data for persistence.
+---
 Search by Name: Add support to search for items by name.
+---
 Delete/Update Items: Enable editing and removing existing records.
+---
 Improved UI: Transition to a graphical or web-based interface.
+
