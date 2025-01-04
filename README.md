@@ -29,12 +29,14 @@ Inventory-Management-Using-C-Language/
 
 ```
 ---
-⚡ Getting Started
+##⚡ Getting Started
 1. Clone the Repository
 Clone the repository to your local system using:
 
 bash
 Copy code
+```plaintext
 git clone https://github.com/moiz6309/Inventory-Management-Using-C-Language.git
 cd Inventory-Management-Using-C-Language
+```
 
