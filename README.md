@@ -63,7 +63,6 @@ Follow the on-screen prompts to perform actions.
 📝 Example Usage
 Adding a New Item
 Input:
-bash
 ```plaintext
 Enter Item ID: 101
 Enter Item Name: Monitor
@@ -71,13 +70,11 @@ Enter Quantity: 10
 Enter Price: 199.99
 ```
 Output:
-bash
 ```plaintext
 Item added successfully!
 ```
 Displaying All Items
 Output:
-bash
 ```plaintext
 Inventory Items:
 ID      Name            Quantity    Price
