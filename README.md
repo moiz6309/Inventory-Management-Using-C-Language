@@ -9,13 +9,13 @@ In-Memory Storage: Data is stored temporarily during program execution (no persi
 # 🛠️ Technologies Used
 Programming Language: C
 Console-Based Interface: Intuitive menu-driven interaction.
-# 📂 Project Structure
+📂 Project Structure
 plaintext
 Copy code
 Inventory-Management-Using-C-Language/
 ├── inventory.c   # Main C program file
 ├── README.md     # Project documentation
-# ⚡ Getting Started
+⚡ Getting Started
 1. Clone the Repository
 Clone the repository to your local system using:
 
