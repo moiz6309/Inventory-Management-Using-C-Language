@@ -1,85 +1,92 @@
-# Inventory Management System 📦  
-A simple yet effective **Inventory Management System** written in **C**. This program is designed to handle the addition, deletion, updating, and viewing of inventory records. It's a great demonstration of basic file handling and data management in C programming.
+# Inventory Management System 📦
+This repository contains a simple Inventory Management System implemented in C. The program allows users to add, display, and search inventory items using a menu-driven interface. All data is stored in memory during execution, providing a lightweight and efficient solution for inventory management.
 
----
-
-## 🚀 Features  
-- **Add New Inventory Items**: Add products with details such as name, price, and quantity.  
-- **Delete Inventory Records**: Remove specific items from the inventory.  
-- **Update Existing Records**: Modify the quantity or price of existing products.  
-- **View Inventory**: Display all items currently in the inventory.  
-- **Permanent Storage**: Inventory data is saved in a file for persistence.  
-
----
-
-## 🛠️ Technologies Used  
-- **Programming Language**: C  
-- **File Handling**: To store and retrieve inventory data.  
-- **Console-Based Interface**: Simple and easy-to-use text-based menu system.  
-
----
-
-## 📂 Project Structure  
-```plaintext
+# 🚀 Features
+Add Items: Add new inventory items with ID, name, quantity, and price.
+Display All Items: View the list of all inventory items currently stored.
+Search by ID: Quickly find specific inventory items using their unique ID.
+In-Memory Storage: Data is stored temporarily during program execution (no persistence).
+# 🛠️ Technologies Used
+Programming Language: C
+Console-Based Interface: Intuitive menu-driven interaction.
+# 📂 Project Structure
+plaintext
+Copy code
 Inventory-Management-Using-C-Language/
-├── inventory.c       # Main C program file
-├── inventory.txt     # File to store inventory data (created dynamically)
-└── README.md         # Project documentation (this file)
-⚡ Getting Started
+├── inventory.c   # Main C program file
+├── README.md     # Project documentation
+# ⚡ Getting Started
 1. Clone the Repository
+Clone the repository to your local system using:
+
 bash
 Copy code
 git clone https://github.com/moiz6309/Inventory-Management-Using-C-Language.git
 cd Inventory-Management-Using-C-Language
 2. Compile the Code
-Use any C compiler to compile the inventory.c file. For example:
+Use a C compiler, such as GCC, to compile the program:
 
 bash
 Copy code
 gcc inventory.c -o inventory
 3. Run the Program
-After compiling, run the program:
+Run the compiled file to start the application:
 
 bash
 Copy code
 ./inventory
 📖 How to Use
-Run the program and choose an option from the menu:
-
-1: Add a new inventory item.
-2: View all inventory items.
-3: Update an existing item's price or quantity.
-4: Delete an item from the inventory.
-5: Exit the program.
-Follow the prompts to enter data or make updates.
-
-All changes are saved to inventory.txt for future use.
-
+Run the program using the instructions above.
+Choose an option from the menu:
+1. Add Item: Add a new inventory item with its details.
+2. Display Items: View all items in the inventory.
+3. Search Item: Find an item by its unique ID.
+4. Exit: Exit the application.
+Follow the on-screen prompts to perform actions.
 📝 Example Usage
 Adding a New Item
 Input:
 
 plaintext
 Copy code
-Enter product name: Laptop
-Enter product price: 55000
-Enter product quantity: 10
+Enter Item ID: 101  
+Enter Item Name: Monitor  
+Enter Quantity: 10  
+Enter Price: 199.99  
 Output:
 
 plaintext
 Copy code
 Item added successfully!
-Viewing Items
+Displaying All Items
 Output:
 
 plaintext
 Copy code
---------------------------------------
-ID    Product Name   Price   Quantity
---------------------------------------
-1     Laptop         55000   10
---------------------------------------
-🚧 Future Enhancements
-🔒 Add User Authentication: Password-protect the inventory system.
-📊 Generate Reports: Include sales and inventory reports.
-🌐 Add a GUI: Upgrade to a graphical interface for easier usage.
+Inventory Items:
+ID      Name            Quantity        Price
+---------------------------------------------
+101     Monitor         10              199.99
+Searching for an Item
+Input:
+
+plaintext
+Copy code
+Enter Item ID to search: 101  
+Output:
+
+plaintext
+Copy code
+Item Found:
+ID: 101  
+Name: Monitor  
+Quantity: 10  
+Price: 199.99
+# 🚧 Limitations
+No Persistence: Data is lost when the program exits as no file handling is implemented.
+Maximum Capacity: Limited to 100 items due to array size constraints.
+# 🚀 Future Enhancements
+File Handling: Save and load inventory data for persistence.
+Search by Name: Add support to search for items by name.
+Delete/Update Items: Enable editing and removing existing records.
+Improved UI: Transition to a graphical or web-based interface.
